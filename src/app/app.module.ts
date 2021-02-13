@@ -11,6 +11,14 @@ import { PatientDetailsComponent } from './patient-details/patient-details.compo
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
+import { DocdetailsComponent } from './docdetails/docdetails.component';
+import { AdmindetailsComponent } from './admindetails/admindetails.component';
+import { ViewpatprofComponent } from './viewpatprof/viewpatprof.component';
+import { AdmaddpatComponent } from './admaddpat/admaddpat.component';
+import { ViewdocprofComponent } from './viewdocprof/viewdocprof.component';
+import { PatchangeComponent } from './patchange/patchange.component';
+import { DocchangeComponent } from './docchange/docchange.component';
+import { AddocComponent } from './addoc/addoc.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +30,15 @@ import { HeaderComponent } from './header/header.component';
     PatientDetailsComponent,
     PageNotFoundComponent,
     HomeComponent,
-    HeaderComponent
+    HeaderComponent,
+    DocdetailsComponent,
+    AdmindetailsComponent,
+    ViewpatprofComponent,
+    AdmaddpatComponent,
+    ViewdocprofComponent,
+    PatchangeComponent,
+    DocchangeComponent,
+    AddocComponent
   ],
   imports: [
     BrowserModule,
